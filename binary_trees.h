@@ -40,5 +40,7 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 #include <stddef.h>
 /* returns the height of binary tree */
 size_t binary_tree_height(const binary_tree_t *tree);
+/* returns the depth of the node */
+size_t binary_tree_depth(const binary_tree_t *tree);
 
 #endif
