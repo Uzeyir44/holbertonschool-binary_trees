@@ -56,5 +56,7 @@ int binary_tree_is_full(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 /* returns the sibling of the node if it exists */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+/* returns the uncle of the node */
+binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 #endif
