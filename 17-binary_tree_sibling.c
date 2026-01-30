@@ -2,13 +2,13 @@
 
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
-    if (tree == NULL)
+    if (node == NULL)
         return (NULL);
 
-    if (tree->parent == NULL)
+    if (node->parent == NULL)
         return (NULL);
 
-    if (tree == tree->prent->left)
-        return (tree->parent->right);
-    return (tree->parent->left);
+    if (node == node->prent->left)
+        return (node->parent->right);
+    return (node->parent->left);
 }
